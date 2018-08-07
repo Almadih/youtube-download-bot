@@ -3,7 +3,7 @@ const app = express();
 const fetch = require('node-fetch');
 const telegramBot = require('node-telegram-bot-api');
 const http = require('request');
-const token = '513820071:AAEaqzx-H_dwH-OTVJppz4XMS16nSrRtmKE';
+const token = 'YOUR_TOKEN';
 
 // definding bot with API TOKEN
 const almadih = new telegramBot(token, {
